@@ -1,0 +1,37 @@
+
+/*---------------------*/
+/* SMALL PHONE TO  SMALL TABLET */
+/*---------------------*/
+
+
+@media only screen and (max-width: 767px) {
+	body {
+		background-color: #2e3141;
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg-mobile.png");
+		background-size: auto,
+ cover;
+		background-attachment: fixed,
+ fixed;
+		background-position: center,
+ center;
+	}
+
+
+
+/*---------------------*/
+/* SMALL PHONES FROM 0 TO 480PX */
+/*---------------------*/
+
+@media only screen and (max-width: 480px) {
+    @media only screen and (max-width: 767px) {
+        body {
+            background-color: #2e3141;
+            background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg-mobile.png");
+            background-size: auto,
+     cover;
+            background-attachment: fixed,
+     fixed;
+            background-position: center,
+     center;
+        }
+    }
